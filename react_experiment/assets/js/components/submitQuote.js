@@ -1,6 +1,6 @@
 import React from "react";
 
-import Qwords from "./Qwords";
+import Qwords from "./Qwords.js";
 
 export default class Quote extends React.Component {
 

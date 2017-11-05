@@ -23,8 +23,8 @@ import "phoenix_html"
 import React from "react";
 import ReactDOM from "react-dom";
 
-import Welcome from "./components/welcome";
-import Quote from "./components/submitQuote";
+import Welcome from "./components/welcome.js";
+import Quote from "./components/submitQuote.js";
 
 class All extends React.Component {
   constructor() {
