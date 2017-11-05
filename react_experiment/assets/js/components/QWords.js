@@ -1,6 +1,11 @@
 import React from "react";
 
 export default class QWords extends React.Component {
+  constructor() {
+    super();
+    this.state = {quotes: []};
+  }
+  
   render() {
     const nquotes = this.state.quotes;
     quote = this.props.quote;
